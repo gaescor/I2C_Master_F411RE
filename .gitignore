@@ -1,0 +1,31 @@
+# Compilados y binarios
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.d
+
+# Carpetas de build generadas por CubeIDE
+/Debug/
+/Release/
+/build/
+
+# Archivos de usuario de Eclipse/CubeIDE
+*.launch
+*.log
+*.settings/
+*.metadata/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de uso interno de STM32CubeIDE
+*.uvprojx
+*.uvoptx
+*.ewp
+*.ewd
+*.eww
